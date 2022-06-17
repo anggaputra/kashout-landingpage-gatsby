@@ -69,7 +69,7 @@ function Home() {
           </div>
         </div>
       </div>
-    
+
       <div className="prising_area">
         <div className="container">
           <h3
@@ -120,32 +120,6 @@ function Home() {
       <div className="features_area" id="howitworks">
         <div className="container">
           <div className="features_main_wrap">
-            <div className="row align-items-center">
-              <div className="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6 ">
-                <div
-                  className="about_draw wow fadeInUp"
-                  data-wow-duration=".7s"
-                  data-wow-delay=".1s"
-                >
-                  <img src={phoneUISaving} alt="" />
-                </div>
-              </div>
-              <div className="col-xl-5 col-lg-5 col-md-6">
-                <div className="features_info">
-                  <h3>
-                    Dengan <b>Recehan</b> <br /> menabung jadi lebih mudah
-                  </h3>
-                  <p>
-                    Serba otomatis, tentukan seberapa banyak kamu ingin
-                    mengumpulkan recehan untuk ditabung dari setiap transaksi
-                    pengeluaran kamu
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="features_main_wrap">
             <div className="row  align-items-center">
               <div className="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
                 <div
@@ -195,6 +169,31 @@ function Home() {
               </div>
             </div>
           </div>
+          <div className="features_main_wrap">
+            <div className="row align-items-center">
+              <div className="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6 ">
+                <div
+                  className="about_draw wow fadeInUp"
+                  data-wow-duration=".7s"
+                  data-wow-delay=".1s"
+                >
+                  <img src={phoneUISaving} alt="" />
+                </div>
+              </div>
+              <div className="col-xl-5 col-lg-5 col-md-6">
+                <div className="features_info">
+                  <h3>
+                    Dengan <b>Recehan</b> <br /> menabung jadi lebih mudah
+                  </h3>
+                  <p>
+                    Serba otomatis, tentukan seberapa banyak kamu ingin
+                    mengumpulkan recehan untuk ditabung dari setiap transaksi
+                    pengeluaran kamu
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -208,9 +207,7 @@ function Home() {
                 data-wow-delay=".1s"
               >
                 <h3>Kumpulin dulu uangnya, baru beli barangnya</h3>
-                <p>
-                  Dapatkan cash reward setiap kali uang terkumpul
-                </p>
+                <p>Dapatkan cash reward setiap kali uang terkumpul</p>
               </div>
             </div>
           </div>
