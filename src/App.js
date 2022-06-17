@@ -11,7 +11,14 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./screens/Home";
 import Product from "./screens/Product";
 
+import ReactGA from 'react-ga';
+
+
 function App() {
+
+  const TRACKING_ID = "G-B62PYYFZL9"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
+
   return (
     <div className="App">
       <ScrollToTop>
