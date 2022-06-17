@@ -3,8 +3,8 @@ import hand3D from "../assets/img/3d/hand3d.png";
 import prodGadget from "../assets/img/products/prod-gadget.png";
 import prodTravel from "../assets/img/products/prod-travel.png";
 import prodInvestment from "../assets/img/products/prod-investment.png";
-import phoneUISaving from "../assets/img/3d/goalreached.png";
-import phoneUIGoal from "../assets/img/3d/financialgoal.png";
+import phoneUISaving from "../assets/img/3d/yourgoals.png";
+import phoneUIGoal from "../assets/img/3d/goaldetail.png";
 
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 
