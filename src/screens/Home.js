@@ -69,72 +69,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="service_area">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <div
-                className="section_title text-center wow fadeInUp"
-                data-wow-duration=".3s"
-                data-wow-delay=".1s"
-              >
-                <h3>Kumpulin dulu uangnya, baru beli barangnya</h3>
-                <p>
-                  Pilih produk favorit kamu, kumpulin uangnya dan dapatkan cash
-                  reward untuk setiap milestone yang tercapai
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-4">
-              <div
-                className="single_service text-center wow fadeInUp"
-                data-wow-duration=".4s"
-                data-wow-delay=".2s"
-              >
-                <div className="thumb">
-                  <img src={prodGadget} alt="" />
-                </div>
-                <h4>Gadget</h4>
-                <Link className="boxed-btn4" to="/product/gadget">
-                  Lihat penawaran
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div
-                className="single_service text-center wow fadeInUp"
-                data-wow-duration=".5s"
-                data-wow-delay=".3s"
-              >
-                <div className="thumb">
-                  <img src={prodTravel} alt="" />
-                </div>
-                <h4>Travel</h4>
-                <a className="boxed-btn4" href="#">
-                  Lihat penawaran
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div
-                className="single_service text-center wow fadeInUp "
-                data-wow-duration=".6s"
-                data-wow-delay=".4s"
-              >
-                <div className="thumb">
-                  <img src={prodInvestment} alt="" />
-                </div>
-                <h4>Investasi</h4>
-                <a className="boxed-btn4" href="#">
-                  Lihat penawaran
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    
       <div className="prising_area">
         <div className="container">
           <h3
@@ -262,31 +197,73 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="productivity_area" id="join-waitinglist">
+
+      <div className="service_area">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-12 col-md-12 col-lg-12">
-              <h3
-                className="wow fadeInDown text-center"
-                data-wow-duration="1s"
+          <div className="row">
+            <div className="col-xl-12">
+              <div
+                className="section_title text-center wow fadeInUp"
+                data-wow-duration=".3s"
                 data-wow-delay=".1s"
               >
-                Dapatkan cash reward setiap kali uang terkumpul
-              </h3>
-              <p className="wow fadeInDown text-center">
-                Kebiasaan berhutang yang tidak baik, bisa merusak kesehatan
-                finansial tanpa Anda ketahui
-              </p>
+                <h3>Kumpulin dulu uangnya, baru beli barangnya</h3>
+                <p>
+                  Dapatkan cash reward setiap kali uang terkumpul
+                </p>
+              </div>
             </div>
           </div>
-
           <div className="row">
-            <div className="join-waitinglist">
-              <div id="my-hubspot-form"></div>
+            <div className="col-lg-4 col-md-4">
+              <div
+                className="single_service text-center wow fadeInUp"
+                data-wow-duration=".4s"
+                data-wow-delay=".2s"
+              >
+                <div className="thumb">
+                  <img src={prodGadget} alt="" />
+                </div>
+                <h4>Gadget</h4>
+                <Link className="boxed-btn4" to="/product/gadget">
+                  Lihat penawaran
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4">
+              <div
+                className="single_service text-center wow fadeInUp"
+                data-wow-duration=".5s"
+                data-wow-delay=".3s"
+              >
+                <div className="thumb">
+                  <img src={prodTravel} alt="" />
+                </div>
+                <h4>Travel</h4>
+                <a className="boxed-btn4" href="#">
+                  Lihat penawaran
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4">
+              <div
+                className="single_service text-center wow fadeInUp "
+                data-wow-duration=".6s"
+                data-wow-delay=".4s"
+              >
+                <div className="thumb">
+                  <img src={prodInvestment} alt="" />
+                </div>
+                <h4>Investasi</h4>
+                <a className="boxed-btn4" href="#">
+                  Lihat penawaran
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
