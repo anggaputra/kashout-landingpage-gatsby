@@ -1481,7 +1481,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area {
-  padding: 160px 0 90px 0;
+  padding: 150px 0 90px 0;
 }
 
 @media (max-width: 767px) {
@@ -1506,11 +1506,6 @@ h3 {
 /* line 15, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area .about_draw img {
   width: 100%;
-}
-
-/* line 19, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
-.features_area .features_main_wrap {
-  padding: 90px 0;
 }
 
 @media (max-width: 767px) {
