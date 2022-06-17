@@ -1309,7 +1309,15 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background: #197BBD;
+  background: hsla(204, 98%, 56%, 1);
+
+background: linear-gradient(90deg, hsla(204, 98%, 56%, 1) 0%, hsla(204, 77%, 42%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(204, 98%, 56%, 1) 0%, hsla(204, 77%, 42%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(204, 98%, 56%, 1) 0%, hsla(204, 77%, 42%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1FA5FD", endColorstr="#197BBD", GradientType=1 );
 }
 
 
