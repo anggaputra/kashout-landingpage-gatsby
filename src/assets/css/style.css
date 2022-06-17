@@ -3447,6 +3447,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1FA5FD", en
   color: #204B57;
   margin-top: 50px;
   line-height: 24px;
+  text-transform: capitalize;
 }
 
 .service_area .single_service a{
@@ -7026,7 +7027,7 @@ h6 {
 
 .product-page{
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
   margin-top: 70px;
 }
@@ -7036,7 +7037,7 @@ h6 {
 }
 
 .product-big{
-  height: 1000px;
+  height: auto;
   padding: 0;
 }
 
@@ -7051,8 +7052,13 @@ h6 {
   padding: 50px;
 }
 
-.product-form h1{
-  margin: 50px 0;
+.product-form > h1{
+  margin: 50px 0 0 0;
+}
+
+.product-form > p{
+  margin: 10px 0 40px 0;
+  text-transform: capitalize;
 }
 
 .offering-form{

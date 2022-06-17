@@ -2,16 +2,33 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import { HubspotProvider } from "@aaronhayes/react-use-hubspot-form";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 import App from "./App";
+import Product from "./screens/Product";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <HubspotProvider>
       <BrowserRouter>
-        <App/>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="product" element={<Product />}>
+              <Route path=":productName" element={<Product />} />
+            </Route>
+            <Route
+              path="*"
+              element={
+                <main style={{ padding: "1rem" }}>
+                  <p>There's nothing here!</p>
+                </main>
+              }
+            />
+          </Routes>
+        </ScrollToTop>
       </BrowserRouter>
     </HubspotProvider>
   </React.StrictMode>

@@ -1,19 +1,21 @@
 import React from "react";
 import hand3D from "../assets/img/3d/hand3d.png";
-import prodGadget from "../assets/img/products/prod-gadget.png";
-import prodTravel from "../assets/img/products/prod-travel.png";
-import prodInvestment from "../assets/img/products/prod-investment.png";
 import phoneUISaving from "../assets/img/3d/yourgoals.png";
 import phoneUIGoal from "../assets/img/3d/goaldetail.png";
-
-import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
+import { getAllProducts } from "../data/allProducts"
+
+
 
 function Home() {
+
+  let products = getAllProducts()
+
+
   return (
     <div className="page">
       <Header />
@@ -200,56 +202,29 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-4">
-              <div
-                className="single_service text-center wow fadeInUp"
-                data-wow-duration=".4s"
-                data-wow-delay=".2s"
-              >
-                <div className="thumb">
-                  <img src={prodGadget} alt="" />
+            {products.map((product) => (
+              <div className="col-lg-4 col-md-4">
+                <div
+                  className="single_service text-center wow fadeInUp"
+                  data-wow-duration=".4s"
+                  data-wow-delay=".2s"
+                >
+                  <div className="thumb">
+                    <img src={product.thumb} alt="" />
+                  </div>
+                  <h4>{product.name}</h4>
+                  <Link className="boxed-btn4" to={`/product/${product.name}`}>
+                    Lihat penawaran
+                  </Link>
                 </div>
-                <h4>Gadget</h4>
-                <Link className="boxed-btn4" to="/product/gadget">
-                  Lihat penawaran
-                </Link>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div
-                className="single_service text-center wow fadeInUp"
-                data-wow-duration=".5s"
-                data-wow-delay=".3s"
-              >
-                <div className="thumb">
-                  <img src={prodTravel} alt="" />
-                </div>
-                <h4>Travel</h4>
-                <a className="boxed-btn4" href="#">
-                  Lihat penawaran
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div
-                className="single_service text-center wow fadeInUp "
-                data-wow-duration=".6s"
-                data-wow-delay=".4s"
-              >
-                <div className="thumb">
-                  <img src={prodInvestment} alt="" />
-                </div>
-                <h4>Investasi</h4>
-                <a className="boxed-btn4" href="#">
-                  Lihat penawaran
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
 
       <Footer />
+      <Outlet/>
     </div>
   );
 }
