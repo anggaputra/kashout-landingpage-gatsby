@@ -273,8 +273,8 @@ function Home() {
                 Dapatkan cash reward setiap kali uang terkumpul
               </h3>
               <p className="wow fadeInDown text-center">
-                Kami percaya kebiasaan berhutang yang tidak baik, bisa merusak
-                kesehatan finansial tanpa anda ketahui
+                Kebiasaan berhutang yang tidak baik, bisa merusak
+                kesehatan finansial tanpa Anda ketahui
               </p>
             </div>
           </div>
