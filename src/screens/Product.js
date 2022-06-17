@@ -13,6 +13,7 @@ function Product() {
   src="//js.hsforms.net/forms/v2.js"
 ></script>;
 
+
 const { loaded, error, formCreated } = useHubspotForm({
   portalId: "21685590",
   formId: "3a2a9e29-fcf7-43d0-af9c-1aa0d5dfdaf7",
