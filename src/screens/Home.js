@@ -14,18 +14,6 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 function Home() {
-  <script
-    charset="utf-8"
-    type="text/javascript"
-    src="//js.hsforms.net/forms/v2.js"
-  ></script>;
-
-  const { loaded, error, formCreated } = useHubspotForm({
-    portalId: "21685590",
-    formId: "74eaa329-277c-4d7f-883e-e4b382ed6072",
-    target: "#my-hubspot-form",
-  });
-
   return (
     <div className="page">
       <Header />
