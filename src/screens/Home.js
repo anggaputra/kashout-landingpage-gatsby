@@ -211,7 +211,16 @@ function Home() {
 
           <div className="features_main_wrap">
             <div className="row  align-items-center">
-              <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
+                <div
+                  className="about_image wow fadeInLeft"
+                  data-wow-duration=".4s"
+                  data-wow-delay=".1s"
+                >
+                  <img src={phoneUIGoal} alt="" />
+                </div>
+              </div>
+              <div className="col-xl-5 col-lg-5 col-md-6">
                 <div className="features_info">
                   <h3
                     className="wow fadeInUp"
@@ -226,32 +235,26 @@ function Home() {
                       data-wow-duration=".7s"
                       data-wow-delay=".5s"
                     >
-                      <i className="ti-arrow-circle-right"></i> Tentukan goal kamu
+                      <i className="ti-arrow-circle-right"></i> Tentukan goal
+                      kamu
                     </li>
                     <li
                       className="wow fadeInUp"
                       data-wow-duration=".8s"
                       data-wow-delay=".6s"
                     >
-                      <i className="ti-arrow-circle-right"></i> Hubungkan akun e-wallet sehari-hari kamu
+                      <i className="ti-arrow-circle-right"></i> Hubungkan akun
+                      e-wallet sehari-hari kamu
                     </li>
                     <li
                       className="wow fadeInUp"
                       data-wow-duration=".9s"
                       data-wow-delay=".7s"
                     >
-                      <i className="ti-arrow-circle-right"></i> Secara otomatis kami akan mencatat dan menyimpan uang
+                      <i className="ti-arrow-circle-right"></i> Secara otomatis
+                      kami akan mencatat dan menyimpan uang
                     </li>
                   </ul>
-                </div>
-              </div>
-              <div className="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
-                <div
-                  className="about_image wow fadeInLeft"
-                  data-wow-duration=".4s"
-                  data-wow-delay=".1s"
-                >
-                  <img src={phoneUIGoal} alt="" />
                 </div>
               </div>
             </div>
