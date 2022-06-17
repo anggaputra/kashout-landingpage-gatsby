@@ -69,52 +69,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="prising_area">
-        <div className="container">
-          <h3
-            className="wow fadeInLeft text-center"
-            data-wow-duration="1s"
-            data-wow-delay=".1s"
-          >
-            Ubah kebiasaan berhutang dengan menabung
-          </h3>
-          <p className="wow fadeInDown text-center"></p>
-          <div className="row no-gutters align-items-center">
-            <div className="offset-xl-1 offset-md-1 col-xl-5 col-md-5">
-              <div
-                className="single_prising text-center wow fadeInUp"
-                data-wow-duration=".2s"
-                data-wow-delay=".6s"
-              >
-                <div className="prising_header d-flex justify-content-between pink_header">
-                  <h3>❌ Buy now, pay later</h3>
-                </div>
-                <ul>
-                  <li>Menambah beban hutang</li>
-                  <li>Merusak 'Credit score' bila tidak bisa membayar</li>
-                  <li>Konsumerisme yang tidak baik</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-5 col-md-5">
-              <div
-                className="single_prising text-center wow fadeInUp"
-                data-wow-duration=".3s"
-                data-wow-delay=".8s"
-              >
-                <div className="prising_header d-flex justify-content-between">
-                  <h3>✅ Save now, buy later</h3>
-                </div>
-                <ul>
-                  <li>Mengubah kebiasaan buruk</li>
-                  <li>Keuangan lebih teratur</li>
-                  <li>Beli barang tanpa beban</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="service_area">
         <div className="container">
           <div className="row">
@@ -181,6 +135,53 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="prising_area">
+        <div className="container">
+          <h3
+            className="wow fadeInLeft text-center"
+            data-wow-duration="1s"
+            data-wow-delay=".1s"
+          >
+            Ubah kebiasaan berhutang dengan menabung
+          </h3>
+          <p className="wow fadeInDown text-center"></p>
+          <div className="row no-gutters align-items-center">
+            <div className="offset-xl-1 offset-md-1 col-xl-5 col-md-5">
+              <div
+                className="single_prising text-center wow fadeInUp"
+                data-wow-duration=".2s"
+                data-wow-delay=".6s"
+              >
+                <div className="prising_header d-flex justify-content-between pink_header">
+                  <h3>❌ Buy now, pay later</h3>
+                </div>
+                <ul>
+                  <li>Menambah beban hutang</li>
+                  <li>Merusak 'Credit score' bila tidak bisa membayar</li>
+                  <li>Konsumerisme yang tidak baik</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-xl-5 col-md-5">
+              <div
+                className="single_prising text-center wow fadeInUp"
+                data-wow-duration=".3s"
+                data-wow-delay=".8s"
+              >
+                <div className="prising_header d-flex justify-content-between">
+                  <h3>✅ Save now, buy later</h3>
+                </div>
+                <ul>
+                  <li>Mengubah kebiasaan buruk</li>
+                  <li>Keuangan lebih teratur</li>
+                  <li>Beli barang tanpa beban</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="features_area" id="howitworks">
         <div className="container">
           <div className="features_main_wrap">
@@ -273,8 +274,8 @@ function Home() {
                 Dapatkan cash reward setiap kali uang terkumpul
               </h3>
               <p className="wow fadeInDown text-center">
-                Kebiasaan berhutang yang tidak baik, bisa merusak
-                kesehatan finansial tanpa Anda ketahui
+                Kebiasaan berhutang yang tidak baik, bisa merusak kesehatan
+                finansial tanpa Anda ketahui
               </p>
             </div>
           </div>

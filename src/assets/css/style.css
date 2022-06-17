@@ -3762,6 +3762,7 @@ h3 {
 .prising_area {
   padding-top: 170px;
   padding-bottom: 150px;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .prising_area h3 {
