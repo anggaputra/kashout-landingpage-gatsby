@@ -48,8 +48,8 @@ function Product() {
                 <i className="ti-time"></i>
               </span>
               <div className="media-body">
-                <h3>Deposit awal</h3>
-                <p>Dapat cash reward Rp120.000</p>
+                <h3>Lakukan deposit awal</h3>
+                <p>Cash reward s/d Rp25.000</p>
               </div>
             </div>
             <div className="media contact-info">
@@ -57,8 +57,17 @@ function Product() {
                 <i className="ti-time"></i>
               </span>
               <div className="media-body">
-                <h3>Deposit 50%</h3>
-                <p>Dapat cash reward 50.000</p>
+                <h3>Hubungkan akun e-wallet kamu</h3>
+                <p>Cash reward s/d Rp25.000</p>
+              </div>
+            </div>
+            <div className="media contact-info">
+              <span className="contact-info__icon">
+                <i className="ti-time"></i>
+              </span>
+              <div className="media-body">
+                <h3>Terkumpul 50%</h3>
+                <p>Cash reward s/d 150.000</p>
               </div>
             </div>
             <div className="media contact-info">
@@ -66,8 +75,8 @@ function Product() {
                 <i className="ti-cup"></i>
               </span>
               <div className="media-body">
-                <h3>Full deposit</h3>
-                <p>Dapat cash reward Rp20.000</p>
+                <h3>Terkumpul 100%</h3>
+                <p>Cash reward Rp200.000</p>
               </div>
             </div>
 
