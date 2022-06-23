@@ -204,10 +204,10 @@ function Home() {
                   data-wow-delay=".2s"
                 >
                   <div className="thumb">
-                    <img src={product.thumb} alt="" />
+                    <img src={product.detail.thumb} alt="" />
                   </div>
-                  <h4>{product.name}</h4>
-                  <Link className="boxed-btn4" to={`/product/${product.name}`}>
+                  <h4>{product.detail.name}</h4>
+                  <Link className="boxed-btn4" to={`/product/${product.sku}`}>
                     Lihat penawaran
                   </Link>
                 </div>

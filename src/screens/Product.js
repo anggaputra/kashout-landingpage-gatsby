@@ -1,7 +1,7 @@
 import React from "react";
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 import { useParams, useNavigate } from "react-router-dom";
-import { getProductImage } from "../data/allProducts";
+import { getProductImage, getAllProducts } from "../data/allProducts";
 
 function Product() {
   <script
@@ -19,6 +19,14 @@ function Product() {
   let productImage = getProductImage(params.productName);
   const navigate = useNavigate(); 
 
+  function filterIt(arr, searchKey) {
+    return arr.filter(function(obj) {
+      return Object.keys(obj).some(function(key) {
+        return obj[key].includes(searchKey);
+      })
+    });
+  }
+
   return (
     <div className="page">
       <div className="product-page">
@@ -29,8 +37,8 @@ function Product() {
           <img src={process.env.PUBLIC_URL + '/logo_blue.png'} width="150" alt="" />
           </button>
           <div className="col-lg-12 col-md-12 product-form">
-            <h1>Tentukan produknya. Deposit. Dapatkan cash rewards</h1>
-            <p>{params.productName}</p>
+            <h1>{productImage.detail.tagline}</h1>
+            <p>{productImage.detail.name}</p>
             <div className="media contact-info">
               <span className="contact-info__icon">
                 <i className="ti-time"></i>
@@ -65,7 +73,7 @@ function Product() {
           </div>
         </div>
         <div className="product-col product-big">
-          <img src={productImage.image} alt="" />
+          <img src={productImage.detail.image} alt="" />
         </div>
 
       </div>
