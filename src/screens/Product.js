@@ -31,14 +31,14 @@ function Product() {
     <div className="page">
       <div className="product-page">
         <div className="product-col product-offering">
-          <button onClick={() => navigate(-1)}>
+          <a href="/">
             <i className="ti-arrow-left"></i>
             <img
               src={process.env.PUBLIC_URL + "/logo_blue.png"}
               width="150"
               alt=""
             />
-          </button>
+          </a>
           <div className="col-lg-12 col-md-12 product-form">
             <p>{productImage.detail.name}</p>
             <h1>{productImage.detail.tagline}</h1>
