@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circular-book');
-@import url('https://fonts.googleapis.com/css2?family=7028
-ter:wght@300;400;700&display=swap');
 
 /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_extend.scss */
 .flex-center-start {
@@ -1393,12 +1391,12 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1FA5FD", en
 /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h1 {
   color: #FFF;
-  font-size: 52px;
+  font-size: 72px;
   text-transform: capitalize;
   letter-spacing: 2px;
-  font-weight: 600;
-  line-height: 74px;
-  margin-top: 70px;
+  font-weight: 700;
+  line-height: 84px;
+  margin-top: 80px;
 }
 
 @media (max-width: 767px) {
