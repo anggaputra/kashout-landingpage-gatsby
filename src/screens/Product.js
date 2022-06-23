@@ -22,11 +22,8 @@ function Product() {
   return (
     <div className="page">
       <div className="product-page">
-        <div className="product-col product-big">
-          <img src={productImage.image} alt="" />
-        </div>
 
-        <div className="product-col product-offering">
+      <div className="product-col product-offering">
          <button onClick={ () => navigate(-1) }>
           <i className="ti-arrow-left"></i>
           <img src={process.env.PUBLIC_URL + '/logo_blue.png'} width="150" alt="" />
@@ -67,6 +64,10 @@ function Product() {
             </div>
           </div>
         </div>
+        <div className="product-col product-big">
+          <img src={productImage.image} alt="" />
+        </div>
+
       </div>
     </div>
   );
