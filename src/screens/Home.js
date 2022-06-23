@@ -7,14 +7,10 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import { Outlet, Link } from "react-router-dom";
-import { getAllProducts } from "../data/allProducts"
-
-
+import { getAllProducts } from "../data/allProducts";
 
 function Home() {
-
-  let products = getAllProducts()
-
+  let products = getAllProducts();
 
   return (
     <div className="page">
@@ -24,14 +20,12 @@ function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-8 col-md-6">
-                <div className="slider_text ">
-                  <h1
-                    className="wow fadeInDown"
-                    data-wow-duration="1s"
-                    data-wow-delay=".1s"
-                  >
-                    Save now buy later
-                  </h1>
+                <div className="slider_text">
+                  <div className="spinny-wrapper">
+                    <h1>
+                       Save now, Buy Later
+                    </h1>
+                  </div>
                   <p
                     className="wow fadeInLeft"
                     data-wow-duration="1s"
@@ -187,7 +181,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="service_area">
+      <div className="service_area" id="service_offering">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
@@ -224,7 +218,7 @@ function Home() {
       </div>
 
       <Footer />
-      <Outlet/>
+      <Outlet />
     </div>
   );
 }

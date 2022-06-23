@@ -1,14 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
-
-import ImageBigGadget from "../assets/img/products/product-big-gadget.jpg";
-
-import {  useParams } from "react-router-dom";
-import { getProductImage } from "../data/allProducts"
-
+import { useParams, useNavigate } from "react-router-dom";
+import { getProductImage } from "../data/allProducts";
 
 function Product() {
   <script
@@ -24,18 +17,22 @@ function Product() {
 
   let params = useParams();
   let productImage = getProductImage(params.productName);
+  const navigate = useNavigate(); 
 
   return (
     <div className="page">
-      <Header />
       <div className="product-page">
         <div className="product-col product-big">
           <img src={productImage.image} alt="" />
         </div>
 
         <div className="product-col product-offering">
+         <button onClick={ () => navigate(-1) }>
+          <i className="ti-arrow-left"></i>
+          <img src={process.env.PUBLIC_URL + '/logo_blue.png'} width="150" alt="" />
+          </button>
           <div className="col-lg-12 col-md-12 product-form">
-            <h1>Simulasi menabung</h1>
+            <h1>Tentukan produknya. Deposit. Dapatkan cash rewards</h1>
             <p>{params.productName}</p>
             <div className="media contact-info">
               <span className="contact-info__icon">
@@ -71,7 +68,6 @@ function Product() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

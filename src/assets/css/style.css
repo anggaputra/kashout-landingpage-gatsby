@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circular-book');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=7028
+ter:wght@300;400;700&display=swap');
 
 /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_extend.scss */
 .flex-center-start {
@@ -1392,7 +1393,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1FA5FD", en
 /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h1 {
   color: #FFF;
-  font-size: 62px;
+  font-size: 52px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 600;
@@ -7029,7 +7030,7 @@ h6 {
   display: flex;
   align-items: stretch;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 
 .product-col{
@@ -7050,6 +7051,20 @@ h6 {
 
 .product-offering{
   padding: 50px;
+}
+
+.product-offering > button{
+  outline: none;
+  background: none;
+  border: 0px;
+}
+
+.product-offering > button > i{
+  color: #0181F5;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 8px 10px 0 0;
+  float: left;
 }
 
 .product-form > h1{
@@ -7073,7 +7088,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 0px;
     flex-direction: column;
   }
   
@@ -7088,6 +7103,7 @@ h6 {
 
   .product-offering {
     padding: 10px 10px;
+    margin-top: 60px;
   }
 
   .product-form h1{
@@ -7130,4 +7146,8 @@ h6 {
 
 #howitworks .slider_area .single_slider .slider_text h1{
   font-size: 42px;
+}
+
+.slider_text{
+  align-items: center;
 }
