@@ -7055,6 +7055,8 @@ h6 {
   outline: none;
   background: none;
   border: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .product-offering > button > i{
