@@ -7066,11 +7066,11 @@ h6 {
 }
 
 .product-form > h1{
-  margin: 50px 0 0 0;
+  margin: 10px 0 40px 0;
 }
 
 .product-form > p{
-  margin: 10px 0 40px 0;
+  margin: 40px 0 10px 0;
   text-transform: capitalize;
 }
 
@@ -7100,12 +7100,12 @@ h6 {
   }
 
   .product-offering {
-    padding: 10px 10px;
-    margin-top: 60px;
+    margin-top: 20px;
+    padding: 10px 40px;
   }
 
   .product-form h1{
-    font-size: 32px;
+    font-size: 24px;
   }
 
 }

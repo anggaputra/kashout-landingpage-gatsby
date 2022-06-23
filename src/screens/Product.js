@@ -17,28 +17,32 @@ function Product() {
 
   let params = useParams();
   let productImage = getProductImage(params.productName);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   function filterIt(arr, searchKey) {
-    return arr.filter(function(obj) {
-      return Object.keys(obj).some(function(key) {
+    return arr.filter(function (obj) {
+      return Object.keys(obj).some(function (key) {
         return obj[key].includes(searchKey);
-      })
+      });
     });
   }
 
   return (
     <div className="page">
       <div className="product-page">
-
-      <div className="product-col product-offering">
-         <button onClick={ () => navigate(-1) }>
-          <i className="ti-arrow-left"></i>
-          <img src={process.env.PUBLIC_URL + '/logo_blue.png'} width="150" alt="" />
+        <div className="product-col product-offering">
+          <button onClick={() => navigate(-1)}>
+            <i className="ti-arrow-left"></i>
+            <img
+              src={process.env.PUBLIC_URL + "/logo_blue.png"}
+              width="150"
+              alt=""
+            />
           </button>
           <div className="col-lg-12 col-md-12 product-form">
-            <h1>{productImage.detail.tagline}</h1>
             <p>{productImage.detail.name}</p>
+            <h1>{productImage.detail.tagline}</h1>
+
             <div className="media contact-info">
               <span className="contact-info__icon">
                 <i className="ti-time"></i>
@@ -75,7 +79,6 @@ function Product() {
         <div className="product-col product-big">
           <img src={productImage.detail.image} alt="" />
         </div>
-
       </div>
     </div>
   );
