@@ -7,16 +7,9 @@ import "./assets/css/style.css";
 
 import Home from "./screens/Home";
 
-import ReactGA from "react-ga";
 import { useEffect } from "react";
 
-const TRACKING_ID = "G-B62PYYFZL9"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
-
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
 
   return (
     <div className="App">
