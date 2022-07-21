@@ -1391,7 +1391,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1FA5FD", en
 /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h1 {
   color: #FFF;
-  font-size: 72px;
+  font-size: 70px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 700;

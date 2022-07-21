@@ -2,6 +2,7 @@ import React from "react";
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 import { useParams, useNavigate } from "react-router-dom";
 import { getProductImage, getAllProducts } from "../data/allProducts";
+import logo from "../assets/img/logo_blue.png"
 
 function Product() {
   <script
@@ -33,11 +34,7 @@ function Product() {
         <div className="product-col product-offering">
           <a href="/">
             <i className="ti-arrow-left"></i>
-            <img
-              src={process.env.PUBLIC_URL + "/logo_blue.png"}
-              width="150"
-              alt=""
-            />
+            <img src={logo} width="200" alt="logo" />
           </a>
           <div className="col-lg-12 col-md-12 product-form">
             <p>{productImage.detail.name}</p>
