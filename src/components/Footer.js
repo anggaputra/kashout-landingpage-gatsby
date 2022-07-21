@@ -39,7 +39,7 @@ function Footer() {
                     <a
                       without
                       rel="noreferrer"
-                      href="mailto:partnership@recehan.app?subject=Partnership dengan Recehan"
+                      href="mailto:partnership@getkashout.co?subject=Partnership dengan Kashout"
                     >
                       Partnership
                     </a>
@@ -48,7 +48,7 @@ function Footer() {
                     <a
                       without
                       rel="noreferrer"
-                      href="mailto:partnership@recehan.app?subject=Halo Tim Recehan"
+                      href="mailto:partnership@getkashout.co?subject=Halo Tim Kashout"
                     >
                       Hubungi Kami
                     </a>
