@@ -27,7 +27,7 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a className="login" href="#join-waitinglist">
+                        <a className="login" href="https://app.getkashout.co/" target="_blank" rel="noreferrer">
                           Daftar
                         </a>
                       </li>

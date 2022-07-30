@@ -23,7 +23,7 @@ function Home() {
                 <div className="slider_text">
                   <div className="spinny-wrapper">
                     <h1>
-                       Save now, Buy Later
+                    Spending, Saving and Earn Rewards at The Same Time
                     </h1>
                   </div>
                   <p

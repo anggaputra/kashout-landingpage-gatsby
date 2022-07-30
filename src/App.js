@@ -7,8 +7,6 @@ import "./assets/css/style.css";
 
 import Home from "./screens/Home";
 
-import { useEffect } from "react";
-
 function App() {
 
   return (
