@@ -1,45 +1,33 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../assets/img/logo_white.png"
-
-import { Link } from "react-router-dom";
+import logo from "../assets/img/logo_white.png";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 function Header() {
   return (
     <header>
-      <div className="header-area ">
+      <div className="header-area">
         <div className="main-header-area">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-xl-2 col-lg-2">
+          <Navbar expand="lg">
+            <Container>
+              <Navbar.Brand href="/" className="flex-row">
                 <div className="logo">
-                  <Link to="/">
-                    <img src={logo} className="logo-img" alt="logo" />
-                  </Link>
+                  <img src={logo} className="logo-img" alt="logo" />
                 </div>
-              </div>
-              <div className="col-sm-5 offset-sm-5 offset-xl-5">
-                <div className="main-menu  d-none d-lg-block">
-                  <nav>
-                    <ul id="navigation">
-                      <li>
-                      <a href="#howitworks">
-                          Cara Kerja
-                        </a>
-                      </li>
-                      <li>
-                        <a className="login" href="https://app.getkashout.co/" target="_blank" rel="noreferrer">
-                          Daftar
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="mobile_menu d-block d-lg-none"></div>
-              </div>
-            </div>
-          </div>
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end flex-grow-0">
+                <Nav className="me-auto">
+                  <Nav.Link href="#howitworks">Cara kerja</Nav.Link>
+                  <Nav.Link target="_blank" href="https://app.getkashout.co/" className="login">
+                    Cash rewards
+                  </Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
         </div>
       </div>
     </header>

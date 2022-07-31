@@ -2,42 +2,42 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="footer_top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-2 col-md-2 col-lg-2">
-              <div class="footer_widget">
-                <div class="socail_links">
+    <footer className="footer">
+      <div className="footer_top">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-2 col-md-2 col-lg-2">
+              <div className="footer_widget">
+                <div className="socail_links">
                   <ul>
                     <li>
                       <a
                         target="_blank"
-                        without
+                        without="true" 
                         rel="noreferrer"
                         href="https://www.linkedin.com/company/getkashout"
                       >
-                        <i class="ti-linkedin"></i>
+                        <i className="ti-linkedin"></i>
                       </a>
                       <a
                         target="_blank"
-                        without
+                        without="true" 
                         rel="noreferrer"
                         href="https://www.instagram.com/getkashout/"
                       >
-                        <i class="ti-instagram"></i>
+                        <i className="ti-instagram"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-xl-2 col-md-6 col-lg-3">
-              <div class="footer_widget">
+            <div className="col-xl-2 col-md-6 col-lg-3">
+              <div className="footer_widget">
                 <ul>
                   <li>
                     <a
-                      without
+                      without="true" 
                       rel="noreferrer"
                       href="mailto:partnership@getkashout.co?subject=Partnership dengan Kashout"
                     >
@@ -46,7 +46,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      without
+                      without="true" 
                       rel="noreferrer"
                       href="mailto:partnership@getkashout.co?subject=Halo Tim Kashout"
                     >

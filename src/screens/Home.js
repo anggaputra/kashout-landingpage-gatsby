@@ -196,8 +196,8 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            {products.map((product) => (
-              <div className="col-lg-4 col-md-4">
+            {products.map((product, index) => (
+              <div key={index} className="col-lg-4 col-md-4">
                 <div
                   className="single_service text-center wow fadeInUp"
                   data-wow-duration=".4s"
