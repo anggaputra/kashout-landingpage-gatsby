@@ -21,7 +21,7 @@ function Header() {
               <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end flex-grow-0">
                 <Nav className="me-auto">
                   <Nav.Link href="#howitworks">Cara kerja</Nav.Link>
-                  <Nav.Link target="_blank" href="https://app.getkashout.co/" className="login">
+                  <Nav.Link target="_blank" href="https://app.getkashout.co/programs" className="login">
                     Explore rewards
                   </Nav.Link>
                 </Nav>
