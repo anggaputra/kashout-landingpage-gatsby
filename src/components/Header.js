@@ -22,7 +22,7 @@ function Header() {
                 <Nav className="me-auto">
                   <Nav.Link href="#howitworks">Cara kerja</Nav.Link>
                   <Nav.Link target="_blank" href="https://app.getkashout.co/" className="login">
-                    Cash rewards
+                    Explore rewards
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
