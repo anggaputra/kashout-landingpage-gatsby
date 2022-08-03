@@ -48,11 +48,22 @@ function Footer() {
                     <a
                       without="true" 
                       rel="noreferrer"
+                      target="_blank" 
+                      href="https://kashout.zohodesk.com/portal/id/home"
+                    >
+                      FAQ
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      without="true" 
+                      rel="noreferrer"
                       href="mailto:partnership@getkashout.co?subject=Halo Tim Kashout"
                     >
                       Hubungi Kami
                     </a>
                   </li>
+                
                 </ul>
               </div>
             </div>
