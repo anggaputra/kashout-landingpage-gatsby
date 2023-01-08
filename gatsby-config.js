@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: `Kashout`,
   },
-  pathPrefix: "/kashout-landingpage-react",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
