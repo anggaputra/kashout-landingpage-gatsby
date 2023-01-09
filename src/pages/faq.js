@@ -121,7 +121,11 @@ const Faq = () => {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <Hero className="position-relative pt-30 pb-14 pb-md-19 pb-lg-33 pt-lg-35 position-relative overflow-hidden" />
+=======
+        <Hero className="position-relative pt-30 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
+>>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
       </PageWrapper>
     </>
   );

@@ -44,8 +44,13 @@ const Hero = ({className,...rest}) => {
                 <h1 className="font-size-11 mb-9 line-height-84 pr-xs-15 pr-lg-0">
                   Raih segmen pasar yang lebih luas dan beragam
                 </h1>
+<<<<<<< HEAD
                 <p className="font-size-7 mb-0 pr-md-10">
                   Kami membantu merchant memasarkan produk keberbagai segmen pasasr. Bangun customer loyalty yang lebih sustainable, Kami membantu user menabung/berinvestasi di produk Anda.
+=======
+                <p className="font-size-7 mb-0 pr-md-10 pr-xl-18">
+                  Kami membantu customer mendapatkan produk Anda tanpa adanya limitasi segmen. Bangun customer loyalty yang lebih sustainable, Kami membantu user menabung/berinvestasi di produk Anda.
+>>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
                 </p>
               </div>
             </div>

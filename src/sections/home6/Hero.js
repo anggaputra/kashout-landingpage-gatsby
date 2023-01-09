@@ -25,7 +25,11 @@ const Hero = ({ className, ...rest }) => {
                   src={imgYS}
                   alt=""
                   data-aos="fade-right"
+<<<<<<< HEAD
                   data-aos-delay={250}
+=======
+                  data-aos-delay={750}
+>>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
                 />
               </div>
             </div>
