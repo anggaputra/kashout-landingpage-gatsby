@@ -94,7 +94,7 @@ const Testimonial = ({ className, ...rest }) => {
                     <i className="fa fa-heart text-dodger-blue-2"></i>
                   </span>
                   <h2 className="font-size-11 mb-0">
-                    1,000+ customers are loving Instappoint.
+                    1,000+ pelanggans are loving Instappoint.
                   </h2>
                 </div>
               </div>

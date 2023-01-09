@@ -13,7 +13,7 @@ const ContentTwo = ({ className, ...rest }) => {
           <div className="col-xl-6 col-lg-5 col-md-8 col-xs-11">
             {/* content img start */}
             <div className="l4-content-img-group">
-              <div className="img-1">
+            <div className="img-1">
                 <img
                   className="w-100"
                   src={imageOne}
@@ -35,23 +35,12 @@ const ContentTwo = ({ className, ...rest }) => {
                   data-aos-once="true"
                 />
               </div>
-              <div className="img-3">
-                <img
-                  className="w-100"
-                  src={imageThree}
-                  alt=""
-                  data-aos="fade-up"
-                  data-aos-duration={600}
-                  data-aos-delay={900}
-                  data-aos-once="true"
-                />
-              </div>
             </div>
           </div>
           {/* End Right Image */}
           <div className="col-xl-5 offset-lg-1 col-lg-6 col-md-8 mt-n13 mt-md-n8 mt-lg-n0">
             <div
-              className="pt-xl-32 pt-lg-0 pt-27 mt-lg-0 dark-mode-texts"
+              className="pt-xl-32 pt-lg-0 pt-27 mt-lg-0"
               data-aos="fade-left"
               data-aos-duration={600}
               data-aos-delay={500}
@@ -61,10 +50,10 @@ const ContentTwo = ({ className, ...rest }) => {
                 Smart savings
               </h6>
               <h2 className="font-size-9 mb-8 letter-spacing-n83 pr-xs-22 pr-sm-18 pr-md-0">
-                Fitur Kashout menjadikan proses menabung/investasi customer jauh lebih mudah
+                Fitur Kashout menjadikan proses menabung/investasi pelanggan jauh lebih mudah
               </h2>
               <p className="font-size-7 mb-0">
-                Customer mulai berinvestasi dari awal ketika mereka menginginkan produk Anda.
+                pelanggan mulai berinvestasi dari awal ketika mereka menginginkan produk Anda.
               </p>
               <div className="mt-12">
                 <Link

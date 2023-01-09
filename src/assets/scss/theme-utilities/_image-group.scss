@@ -603,7 +603,7 @@
 
   .image-card {
     position: absolute;
-    bottom: 12%;
+    bottom: -20%;
     left: -60px;
     transform: scale(0.7);
 
@@ -623,7 +623,7 @@
   .img-1 {
     position: absolute;
     left: -5%;
-    top: -35%;
+    top: -60px;
     z-index: 1;
     width: 54%;
   }
@@ -631,7 +631,7 @@
   .img-2 {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -60px;
     z-index: 1;
     width: 43%;
   }

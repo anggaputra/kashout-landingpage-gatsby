@@ -29,29 +29,6 @@ const Content1 = ({ className, ...rest }) => {
                 {/* End content-card-img-1 Img */}
                 {/* img-group-content */}
                 <div className="img-group-content bg-white absolute-top-left shadow-4 max-w-193 text-left">
-                  <div className="seciton-body">
-                    <div className="mb-7">
-                      <h5 className="font-size-6 font-weight-medium mb-0 line-height-reset text-dark-cloud">
-                        Meeting with John
-                      </h5>
-                      <p className="font-size-3 text-stone">
-                        11:15am, Sep 10, Sunday
-                      </p>
-                    </div>
-                    <h6 className="font-size-3 text-stone">Agenda:</h6>
-                    <p className="font-size-3 text-dark-cloud">
-                      How to get more customers for your ecommerce business
-                    </p>
-                  </div>
-                  <div className="d-flex align-items-center w-100">
-                    <Link to={"#"} className="btn-buttercup w-50 text-white">
-                      <i className="fa fa-calendar font-size-3 mr-1" />{" "}
-                      Reschedule
-                    </Link>
-                    <Link to={"#"} className="btn-red w-50">
-                      <i className="fa fa-times font-size-3 mr-1" /> Cancel
-                    </Link>
-                  </div>
                 </div>
                 {/* End Img-group-content */}
                 <div className="img-3">

@@ -15,13 +15,13 @@ const ContentTwo = ({ className, ...rest }) => {
               data-aos-once="true"
             >
               <h6 className="font-size-3 text-dodger-blue-1 text-uppercase mb-9 letter-spacing-normal">
-                Customer-centric brands
+                More sales
               </h6>
               <h2 className="font-size-10 mb-8 letter-spacing-n83">
                 Jadi partner kami sekarang!
               </h2>
               <p className="font-size-7 mb-0">
-                Gabung dengan merchant yang peduli dengan keuangan customernya, customer invest di produk Anda dan sebaliknya juga.
+                Gabung dengan merchant yang peduli dengan keuangan pelanggannya, Kami mengajarkan pelanggan berinvestasi di produk Anda dan sebaliknya juga.
               </p>
               <div className="mt-12">
                 <Link className="btn btn-sunset btn-xl h-55 rounded-5" to={"/contact"} target="_blank">
@@ -44,16 +44,16 @@ const ContentTwo = ({ className, ...rest }) => {
                 src={imageOne}
                 alt=""
               />
-              <div className="image-card w-fit-content bg-white rounded-15 d-flex align-items-center shadow-10 p-8">
+              <div className="image-card w-fit-content bg-white rounded-15 d-flex align-items-center shadow-10 p-8 mt-30">
                 <div className="mr-6 square-59 bg-dodger-blue-1-op1 rounded-10 text-dodger-blue-1 font-size-7">
                   <i className="fas fa-bell" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-size-6 text-dark-cloud mb-0 line-height-26">
-                    New Feature
+                    Notifikasi
                   </h4>
                   <p className="font-size-5 text-stone mb-0">
-                    You’ve received a new notification
+                    Anda mendapatkan pelanggan baru
                   </p>
                 </div>
               </div>

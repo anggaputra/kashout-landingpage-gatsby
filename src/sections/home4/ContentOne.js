@@ -14,7 +14,7 @@ const ContentOne = ({ className, ...rest }) => {
             data-aos-once="true"
           >
             <h3 className="font-size-8 mb-0 letter-spacing-n83">
-            Kashout membantu customer berinvestasi pada produk Anda dengan cara menabung
+            Kashout membantu pelanggan berinvestasi pada produk Anda dengan cara menabung
             </h3>
           </div>
           <div
@@ -98,7 +98,7 @@ const ContentOne = ({ className, ...rest }) => {
               <div className="mt-9">
                 <h4 className="font-size-7 mb-5">Sustainable sales</h4>
                 <p className="font-size-5 mb-0">
-                Kami membantu user menabung, bukan berhutang, jangka panjang lebih sustain untuk bisnis dan customer.
+                Kami membantu user menabung, bukan berhutang, jangka panjang lebih sustain untuk bisnis dan pelanggan.
                 </p>
               </div>
             </div>

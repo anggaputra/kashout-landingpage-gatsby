@@ -40,7 +40,7 @@ const items = [
   {
     image: img6,
     name: "Augusta Chambers",
-    title: "Customer Support",
+    title: "pelanggan Support",
   },
   {
     image: img7,

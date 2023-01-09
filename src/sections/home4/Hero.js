@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import imageOne from "../../assets/image/home-4/png/l4-hero-desktops-img.png";
 import imageTwo from "../../assets/image/home-4/png/l4-hero-phone-img.png";
 
@@ -45,7 +44,7 @@ const Hero = ({className,...rest}) => {
                   Raih segmen pasar yang lebih luas dan beragam
                 </h1>
                 <p className="font-size-7 mb-0 pr-md-10">
-                  Kami membantu merchant memasarkan produk keberbagai segmen pasasr. Bangun customer loyalty yang lebih sustainable, Kami membantu user menabung/berinvestasi di produk Anda.
+                  Kami membantu merchant memasarkan produk ke berbagai segmen pasasr. Bangun pelanggan loyalty yang lebih sustainable, Kami membantu pelanggan menabung/berinvestasi di produk Anda.
                 </p>
               </div>
             </div>

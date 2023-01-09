@@ -23,7 +23,7 @@ const Footer = ({ className, ...rest }) => {
                           to="/faq"
                           className="font-size-5 text-default-color"
                         >
-                          Untuk customer
+                          Untuk pelanggan
                         </Link>
                       </li>
                       <li className="mb-6">

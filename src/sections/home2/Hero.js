@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import imgBP from "../../assets/image/home-2/png/dot-pattern-blue.png";
-import hand3d from "../../assets/image/3d/hand3d.png";
 import heroIndex from "../../assets/image/illustrations/home-index.png";
+import heroIndex2 from "../../assets/image/illustrations/home-index2.png";
 
 const Hero = ({ className, ...rest }) => {
   return (
@@ -42,9 +41,12 @@ const Hero = ({ className, ...rest }) => {
               data-aos="fade-left"
               data-aos-delay="800"
             >
-              <div className="mt-5 mt-lg-0">
+              <div className="mt-lg-0">
                 <div className="w-100">
                   <img className="mx-auto d-block" src={heroIndex} alt="" />
+                </div>
+                <div className="img-1">
+                  <img className="w-50" src={heroIndex2} alt="" />
                 </div>
               </div>
             </div>

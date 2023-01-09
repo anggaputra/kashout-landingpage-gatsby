@@ -36,7 +36,7 @@ const items = [
     jobs: 272,
   },
   {
-    title: "Customer Support",
+    title: "pelanggan Support",
     image: img4,
     jobs: 2172,
   },

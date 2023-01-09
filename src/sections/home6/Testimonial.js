@@ -46,7 +46,7 @@ const Testimonial = ({ className, ...rest }) => {
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-8 col-md-10">
               <div className="text-center mb-13 mb-lg-21">
-                <h2 className="font-size-11 mb-7">Customers loving it</h2>
+                <h2 className="font-size-11 mb-7">pelanggans loving it</h2>
                 <p className="font-size-7 mb-0 px-xl-10">
                   Your app is your tool for better solution with your followers,
                   making it easier for them to keep up to date.

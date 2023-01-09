@@ -42,7 +42,7 @@ const sliderNavigationData = [
 const mainSliderData = [
   {
     text:
-      "“Lebih sustainable dan win-win solution untuk customer dan merchant.”",
+      "“Lebih sustainable dan win-win solution untuk pelanggan dan merchant.”",
     image: userImage1,
     name: "Anggi",
     position: "Merchant",

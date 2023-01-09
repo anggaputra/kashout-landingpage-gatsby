@@ -32,7 +32,7 @@ const Footer = ({ className, ...rest }) => {
                 </div>
                 <p className="font-size-5 mb-0 text-bali-gray pr-sm-10 pr-md-0">
                   Your ulitmate email solution to grow business and engaging
-                  with future customers and clients.
+                  with future pelanggans and clients.
                 </p>
                 <div className="mt-8">
                   <Link
