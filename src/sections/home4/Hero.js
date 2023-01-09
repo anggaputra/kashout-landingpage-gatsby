@@ -44,7 +44,7 @@ const Hero = ({className,...rest}) => {
                   Raih segmen pasar yang lebih luas dan beragam
                 </h1>
                 <p className="font-size-7 mb-0 pr-md-10">
-                  Kami membantu merchant memasarkan produk ke berbagai segmen pasasr. Bangun pelanggan loyalty yang lebih sustainable, Kami membantu pelanggan menabung/berinvestasi di produk Anda.
+                  Kami membantu merchant memasarkan produk ke berbagai kategori pelanggan. Bangun pelanggan loyalty yang lebih sustainable, Kami membantu pelanggan menabung/berinvestasi di produk Anda.
                 </p>
               </div>
             </div>
