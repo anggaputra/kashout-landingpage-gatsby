@@ -4,8 +4,6 @@ import img1 from "../../assets/image/home-2/png/explore.png";
 import img2 from "../../assets/image/home-2/png/interview.png";
 import img3 from "../../assets/image/home-2/png/card-favorite.png";
 import imgC from "../../assets/image/illustrations/home-content1.png";
-import imgP from "../../assets/image/home-2/png/patterns-dot-green.png";
-import imgH from "../../assets/image/home-2/png/right-circlehalf-shape.png";
 
 const Content2 = ({ className, ...rest }) => {
   const contentWidgetData = [
@@ -37,7 +35,7 @@ const Content2 = ({ className, ...rest }) => {
               data-aos-delay={500}
               data-aos-once="true"
             >
-              <h2 className="font-size-11">Save now, buy later</h2>
+              <h2 className="font-size-11">Save now, Save later!</h2>
               <ul className="list-unstyled mt-9 mt-lg-14">
                 {contentWidgetData.map(({ icon, title, text }, index) => {
                   return (

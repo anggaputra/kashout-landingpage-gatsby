@@ -44,22 +44,15 @@ const mainSliderData = [
     text:
       "“Lebih sustainable dan win-win solution untuk customer dan merchant.”",
     image: userImage1,
-    name: "Sarah Plath",
-    position: "HR Manager",
+    name: "Anggi",
+    position: "Merchant",
   },
   {
     text:
       "“Kami bisa meraih lebih banyak ragam pangsa pasar”",
     image: userImage2,
     name: "Tanjim Brew",
-    position: "HR Manager",
-  },
-  {
-    text:
-      "“We are going to do an overhaul of our terms later this year and we will use you guys for it.Professionals in their expertise!”",
-    image: userImage3,
-    name: "Akash Jack",
-    position: "HR Manager",
+    position: "Merchant",
   }
 ];
 
@@ -84,74 +77,6 @@ const mainSliderData = [
      return (
        <div className="bg-default-4 pt-10 pt-lg-22 pb-11 pb-lg-23 border-top border-default-color" >
          <div className="container">
-           <div className="row">
-             <div className="col-12">
-               {/* Brand Logos */}
-               <Slider
-                 asNavFor={this.state.nav1}
-                 ref={(slider) => (this.slider2 = slider)}
-                 slidesToShow = {5}
-                 dots= {false}
-                 arrows ={false}
-                 focusOnSelect = {true}
-                 centerPadding = {"60px"}
-                 swipe = {false}
-                 responsive = {[{
-                  breakpoint: 1180,
-                  settings: {
-                    slidesToShow: 5
-                  }
-                },
-                {
-                  breakpoint: 991,
-                  settings: {
-                    slidesToShow: 4
-                  }
-                },
-                {
-                  breakpoint: 768,
-                  settings: {
-                    slidesToShow: 3
-                  }
-                },
-                {
-                  breakpoint: 530,
-                  settings: {
-                    slidesToShow: 2
-                  }
-                },
-                {
-                  breakpoint: 320,
-                  settings: {
-                    slidesToShow: 2
-                  }
-                }
-              ]}
-                 className="l4-tab-slider border-bottom d-flex"
-               >
-                 {sliderNavigationData.map(({ darkLogo, lightLogo }, index) => {
-                   return (
-                     <div
-                       className="single-tab d-flex flex-column justify-content-center"
-                       key={`${index.toString()}-n`}
-                     >
-                       <img
-                         className="light-version-logo"
-                         src={darkLogo}
-                         alt=""
-                       />
-                       <img
-                         className="dark-version-logo default-logo"
-                         src={lightLogo}
-                         alt=""
-                       />
-                     </div>
-                   );
-                 })}
-               </Slider>
-               {/* End Brand Logos */}
-             </div>
-           </div>
            <div className="row justify-content-center">
              <div className="col-xl-7 col-lg-9 col-md-11">
                <Slider

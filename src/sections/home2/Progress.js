@@ -76,7 +76,7 @@ const Progress = ({ className, ...rest }) => {
                   <div className="">
                     <h3 className="font-size-8 mb-6">Atur jadwal</h3>
                     <p className="font-size-5 line-height-28 mb-0">
-                      Pilih kapan Kamu ingin mendapatkan produknya dan lakukan pembayaran sesuai kemampuan keuangan Kamu.
+                      Lakukan pembayaran sesuai kemampuan keuangan Kamu sampai mencapai target menabung tercapai.
                     </p>
                   </div>
                 </div>
