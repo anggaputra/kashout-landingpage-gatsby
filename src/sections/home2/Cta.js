@@ -8,10 +8,6 @@ const Cta = ({ className, ...rest }) => {
       <div
         className={className}
         {...rest}
-<<<<<<< HEAD
-=======
-        style={{ backgroundImage: `url(${backgroundImage})` }}
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">

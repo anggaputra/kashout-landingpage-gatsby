@@ -13,13 +13,8 @@ const ContentOne = ({ className, ...rest }) => {
             data-aos-delay={500}
             data-aos-once="true"
           >
-<<<<<<< HEAD
             <h3 className="font-size-8 mb-0 letter-spacing-n83">
             Kashout membantu customer berinvestasi pada produk Anda dengan cara menabung
-=======
-            <h3 className="font-size-9 mb-0 letter-spacing-n83">
-            Kashout meningkatkan penjualan dan membangun customer loyalty program
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
             </h3>
           </div>
           <div
@@ -29,11 +24,7 @@ const ContentOne = ({ className, ...rest }) => {
             data-aos-once="true"
           >
             <p className="font-size-7 mb-0 pr-xl-2 pr-lg-5 pr-md-10 pr-sm-20 mt-7 mt-lg-0">
-<<<<<<< HEAD
             Perluas pangsa pasar dengan cara baru. Menabung, dan berinvestasi di produk Anda.
-=======
-              Berbagaai segmen pasar bisa mendapatkan produk Anda, karena Kami membantu mereka dengan cara menabung.
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
             </p>
           </div>
         </div>

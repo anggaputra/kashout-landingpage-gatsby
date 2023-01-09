@@ -711,41 +711,25 @@
 
   .img-1 {
     position: absolute;
-<<<<<<< HEAD
     top: 3%;
-=======
-    top: 0%;
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
     left: 35%;
     z-index: -1;
 
     @include desktops {
-<<<<<<< HEAD
       top: 3%;
-=======
-      top: 0%;
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
       left: 35%;
       transform: scale(0.8);
     }
 
     @include large-desktops {
       left: 40%;
-<<<<<<< HEAD
       top: 3%;
-=======
-      top: 0%;
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
       transform: scale(1);
     }
 
     @include extra-large-desktops {
       left: 45%;
-<<<<<<< HEAD
       top: 3%;
-=======
-      top: -6%;
->>>>>>> 57f4fadf608770382a2f90394f9e2d6592a2f8e5
     }
   }
 }
