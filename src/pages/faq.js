@@ -122,7 +122,7 @@ const Faq = () => {
             </div>
           </div>
         </div>
-        <Hero className="position-relative pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
+        <Hero className="position-relative pt-30 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
         <Cta className="bg-purple-heart py-10" />
       </PageWrapper>
     </>

@@ -17,7 +17,7 @@ const Hero = ({ className, ...rest }) => {
                 src={imgM}
                 alt=""
                 data-aos="fade-up"
-                data-aos-delay={500}
+                data-aos-delay={250}
               />
               <div className="img-1">
                 <img
@@ -38,11 +38,11 @@ const Hero = ({ className, ...rest }) => {
               data-aos="fade-left"
               data-aos-delay={750}
             >
-              <h1 className="font-size-13 mb-8 pr-sm-18 pr-md-8 pr-lg-0 line-height-84">
+              <h1 className="font-size-11 mb-8 pr-sm-18 pr-md-8 pr-lg-0 line-height-84">
                 Atur keuangan kamu sebelum terlambat
               </h1>
               <p className="font-size-7 mb-0 pr-sm-10 pr-md-10 pr-lg-0 pr-xl-18">
-                Bangun kebiasan menabung diera digital saat ini semakin susah, kita dengan mudah berhutang hanya untuk memiliki produk tertentu.
+                Membangun kebiasan menabung di era digital saat ini semakin susah, kita dengan mudah berhutang hanya untuk memiliki produk tertentu.
               </p>
             </div>
           </div>
