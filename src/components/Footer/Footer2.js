@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
+import Cta from "../../sections/home6/Cta";
 
 const Footer = ({ className, ...rest }) => {
   return (
     <>
+      <Cta className="bg-purple-heart py-5" />
       <div className={`pt-13 pt-lg-25 pb-13 pb-lg-18 ${className}`} {...rest}>
         <div className="container">
           <div className="row">
@@ -44,7 +46,9 @@ const Footer = ({ className, ...rest }) => {
                   Subscribe Newsletter
                 </h4>
                 <p className="font-size-5 line-height-28">
-                  Dapatkan informasi seputar mengelola keuangan. Mulai dari investasi, budgeting, saving. Atur keuangan Kamu mulai dari sekarang!
+                  Dapatkan informasi seputar mengelola keuangan. Mulai dari
+                  investasi, budgeting, saving. Atur keuangan Kamu mulai dari
+                  sekarang!
                 </p>
               </div>
               <div className="mb-0 mr-xl-9">

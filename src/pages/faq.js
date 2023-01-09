@@ -2,7 +2,6 @@ import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/home6/Hero";
-import Cta from "../sections/home6/Cta";
 
 const Faq = () => {
   return (
@@ -123,7 +122,6 @@ const Faq = () => {
           </div>
         </div>
         <Hero className="position-relative pt-30 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
-        <Cta className="bg-purple-heart py-10" />
       </PageWrapper>
     </>
   );
