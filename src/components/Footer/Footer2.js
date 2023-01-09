@@ -18,7 +18,7 @@ const Footer = ({ className, ...rest }) => {
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <Link
-                          to="/#"
+                          to="/faq"
                           className="font-size-5 text-default-color"
                         >
                           Untuk customer
@@ -26,7 +26,7 @@ const Footer = ({ className, ...rest }) => {
                       </li>
                       <li className="mb-6">
                         <Link
-                          to="/#"
+                          to="/partner"
                           className="font-size-5 text-default-color"
                         >
                           Jadi partner

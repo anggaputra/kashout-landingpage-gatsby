@@ -47,11 +47,6 @@ const Hero = ({className,...rest}) => {
                 <p className="font-size-7 mb-0 pr-md-10 pr-xl-18">
                   Kami membantu customer mendapatkan produk Anda tanpa adanya limitasi segmen. Bangun customer loyalty yang lebih sustainable, Kami membantu user menabung/berinvestasi di produk Anda.
                 </p>
-                <div className="btn-group pt-10 pt-lg-12">
-                  <Link className="btn btn-dodger-blue-2 btn-3 h-60 rounded-5" to={"#"}>
-                    Hubungi Kami
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

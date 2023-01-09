@@ -24,8 +24,8 @@ const Cta = ({ className, ...rest }) => {
                 <p className="font-size-5 line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0">
                   Sedikit demi sedikit, lama-lama menjadi bukit.
                 </p>
-                <Link to={"#"} className="btn btn-dodger-blue-2 rounded-5 mt-12">
-                 Lihat penawaran
+                <Link to={"/faq"} className="btn btn-dodger-blue-2 rounded-5 mt-12">
+                 Tentang Kashout
                 </Link>
               </div>
             </div>

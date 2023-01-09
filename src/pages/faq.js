@@ -9,14 +9,8 @@ const Faq = () => {
     <>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-center",
-          headerButton: (
-            <>
-              <button className="btn btn  btn-dodger-blue-2 header-btn rounded-5">
-                Lihat penawaran
-              </button>
-            </>
-          ),
+          headerClassName: "site-header--menu-right",
+          headerButton: <></>,
           footerStyle: "style2",
         }}
       >

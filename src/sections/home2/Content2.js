@@ -3,7 +3,7 @@ import React from "react";
 import img1 from "../../assets/image/home-2/png/explore.png";
 import img2 from "../../assets/image/home-2/png/interview.png";
 import img3 from "../../assets/image/home-2/png/card-favorite.png";
-import imgC from "../../assets/image/home-2/png/content-2-img.png";
+import imgC from "../../assets/image/illustrations/home-content1.png";
 import imgP from "../../assets/image/home-2/png/patterns-dot-green.png";
 import imgH from "../../assets/image/home-2/png/right-circlehalf-shape.png";
 
@@ -37,7 +37,7 @@ const Content2 = ({ className, ...rest }) => {
               data-aos-delay={500}
               data-aos-once="true"
             >
-              <h2 className="font-size-11">✅ Save now, buy later</h2>
+              <h2 className="font-size-11">Save now, buy later</h2>
               <ul className="list-unstyled mt-9 mt-lg-14">
                 {contentWidgetData.map(({ icon, title, text }, index) => {
                   return (
@@ -66,13 +66,7 @@ const Content2 = ({ className, ...rest }) => {
             >
               <div className="l2-content-image-group-2 mb-10 mb-md-0 rounded-10">
                 <div className="img-1 position-relative text-right rounded-10">
-                  <img className="w-100 w-lg-auto" src={imgC} alt="" />
-                  <div className="img-2">
-                    <img className="w-100" src={imgP} alt="" />
-                  </div>
-                  <div className="img-3">
-                    <img className="w-100 opacity-7" src={imgH} alt="" />
-                  </div>
+                  <img className="w-100" src={imgC} alt="" />
                 </div>
               </div>
             </div>

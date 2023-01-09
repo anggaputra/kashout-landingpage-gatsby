@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import Modal from "../../components/ModalVideo/Modal";
-
-import imgSBR from "../../assets/image/home-2/png/round-shape-blue.png";
 import imgBP from "../../assets/image/home-2/png/dot-pattern-blue.png";
-import imgH from "../../assets/image/home-2/png/hero-2-img-1.png";
-import imgH2 from "../../assets/image/home-2/png/hero-2-img-2.png";
 import hand3d from "../../assets/image/3d/hand3d.png";
+import heroIndex from "../../assets/image/illustrations/home-index.png";
 
 const Hero = ({ className, ...rest }) => {
   return (
@@ -21,12 +17,15 @@ const Hero = ({ className, ...rest }) => {
               data-aos-delay="500"
             >
               <div className="pr-lg-10 pr-xl-0 pt-0 pt-lg-0 pb-13 pb-lg-0">
-                <h1 className="font-size-12 mb-8">  Menabung lebih baik daripada berhutang</h1>
+                <h1 className="font-size-12 mb-8">
+                  Miliki produk impian tanpa berhutang
+                </h1>
                 <p className="font-size-7 mb-0 heading-default-color">
-                  Membeli sesuatu tidak harus selalu berhutang, ubah kebiasaan berhutang dengan menabung menggunakan Kashout
+                  Membeli sesuatu tidak harus selalu berhutang, ubah kebiasaan
+                  berhutang dengan menabung menggunakan Kashout
                 </p>
                 <div className=" pt-5 pt-lg-10">
-                  <Link to={"#"} className="btn btn-dodger-blue-2 rounded-5">
+                  <Link to={"/faq"} className="btn btn-dodger-blue-2 rounded-5">
                     Cara kerja
                   </Link>
                   {/*   <span className="d-block pt-5 pt-lg-9 heading-default-color">
@@ -43,14 +42,10 @@ const Hero = ({ className, ...rest }) => {
               data-aos="fade-left"
               data-aos-delay="800"
             >
-              <div className="l2-hero-image-group mt-5 mt-lg-0">
-              <div className="img-2">
-                  <img src={imgBP} alt="" />
+              <div className="mt-5 mt-lg-0">
+                <div className="w-100">
+                  <img className="mx-auto d-block" src={heroIndex} alt="" />
                 </div>
-                <div className="img-2">
-                  <img src={hand3d} alt="" style={{ width: "600px" }} />
-                </div>
-              
               </div>
             </div>
             {/* <!-- End l2-hero-image-group --> */}

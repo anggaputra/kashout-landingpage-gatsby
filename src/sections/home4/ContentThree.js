@@ -69,7 +69,7 @@ const ContentTwo = ({ className, ...rest }) => {
               <div className="mt-12">
                 <Link
                   className="btn btn-sunset btn-xl h-55 rounded-5 font-weight-normal"
-                  to={"#"}
+                  to={"/contact"} target="_blank"
                 >
                   Hubungi Kami
                 </Link>

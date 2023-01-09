@@ -11,17 +11,6 @@ const Content1 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
         <div className="container">
-          {/* <!-- Section Title --> */}
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-7 col-md-8">
-              <div className="text-center mb-13 mb-lg-22 pr-lg-10 pr-xl-0">
-                <h2 className="font-size-11 mb-0">
-                  Ubah kebiasaan berhutang dengan menabung
-                </h2>
-              </div>
-            </div>
-          </div>
-          {/* Section Title */}
           <div className="row justify-content-center">
             {/* Image Section */}
             <div className="col-lg-9 col-md-10 ">

@@ -24,7 +24,7 @@ const ContentTwo = ({ className, ...rest }) => {
                 Gabung dengan merchant yang peduli dengan keuangan customernya, customer invest di produk Anda dan sebaliknya juga.
               </p>
               <div className="mt-12">
-                <Link className="btn btn-sunset btn-xl h-55 rounded-5" to={"/#"}>
+                <Link className="btn btn-sunset btn-xl h-55 rounded-5" to={"/contact"} target="_blank">
                   Hubungi Kami
                 </Link>
               </div>
