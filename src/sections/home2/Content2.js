@@ -35,7 +35,7 @@ const Content2 = ({ className, ...rest }) => {
               data-aos-delay={500}
               data-aos-once="true"
             >
-              <h2 className="font-size-11">Save now, Save later!</h2>
+              <h2 className="font-size-9">Beli barang dengan cara berinvestasi</h2>
               <ul className="list-unstyled mt-9 mt-lg-14">
                 {contentWidgetData.map(({ icon, title, text }, index) => {
                   return (
