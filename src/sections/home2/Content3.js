@@ -17,7 +17,7 @@ const Content3 = ({ className, ...rest }) => {
                 data-aos-once="true"
               >
                 <h2 className="font-size-10 mb-10 mb-lg-20">
-                  Otomatisasi proses menabung dengan fitur Qoins.
+                  Otomatisasi proses menabung dengan fitur Koins.
                 </h2>
               </div>
             </div>
