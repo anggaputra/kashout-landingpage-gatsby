@@ -16,7 +16,7 @@ const Progress = ({ className, ...rest }) => {
             <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10">
               <div className="text-center pt-13 pt-lg-23 pb-13 pb-lg-12 pr-lg-10 pr-xl-0">
                 <h2 className="font-size-11 mb-0">
-                Dapatkan rewards setiap kali kamu menabung
+                Dapatkan cash rewards setiap kali kamu menabung
                 </h2>
               </div>
             </div>
@@ -56,9 +56,9 @@ const Progress = ({ className, ...rest }) => {
                     <img src={imgS} alt="" />
                   </div>
                   <div className="">
-                    <h3 className="font-size-8 mb-6">Pilih produknya</h3>
+                    <h3 className="font-size-8 mb-6">Mulai menabung</h3>
                     <p className="font-size-5 line-height-28 mb-0">
-                      Kashout bekerja sama dengan banyak merchant dari beberapa kategori.
+                    Kumpulin uang sedikit demi sedikit, mulai menabung sekarang juga.
                     </p>
                   </div>
                 </div>

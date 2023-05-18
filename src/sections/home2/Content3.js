@@ -17,7 +17,7 @@ const Content3 = ({ className, ...rest }) => {
                 data-aos-once="true"
               >
                 <h2 className="font-size-10 mb-10 mb-lg-20">
-                  Otomatisasi proses menabung dengan fitur Qoins.
+                  Otomatisasi proses menabung dengan fitur Koins.
                 </h2>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Content3 = ({ className, ...rest }) => {
             >
               <div className="mr-lg-10 mr-xl-25">
                 <p className="heading-default-color font-size-6 mb-10">
-                  Dengan Kashout menabung jadi lebih mudah serba otomatis,
+                  COMING SOON - Dengan Kashout menabung jadi lebih mudah serba otomatis,
                   tentukan seberapa banyak kamu ingin mengumpulkan recehan untuk
                   ditabung dari setiap transaksi pengeluaran kamu.
                 </p>

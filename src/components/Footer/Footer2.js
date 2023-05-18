@@ -43,13 +43,8 @@ const Footer = ({ className, ...rest }) => {
             <div className="col-lg-5 col-md-8">
               <div className="mb-7">
                 <h4 className="font-size-6 font-weight-medium mb-8">
-                  Subscribe Newsletter
+                  Langganan Newsletter
                 </h4>
-                <p className="font-size-5 line-height-28">
-                  Dapatkan informasi seputar mengelola keuangan. Mulai dari
-                  investasi, budgeting, saving. Atur keuangan Kamu mulai dari
-                  sekarang!
-                </p>
               </div>
               <div className="mb-0 mr-xl-9">
                 <div className="shadow-3 bg-white rounded-4">
