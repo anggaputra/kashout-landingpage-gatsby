@@ -1,5 +1,5 @@
 export const menuItems = [
-        /*  {
+    /*  {
            name: "demos",
            label: "Demos",
            items: [
@@ -10,17 +10,18 @@ export const menuItems = [
              { name: "home-5", label: "Home 05" },
              { name: "home-6", label: "Home 06" },
            ],
-         }, */
+         }, 
          {
           name: "",
           label: "Mulai menabung",
         },
-         {
-           name: "partner",
-           label: "Jadi partner",
-         },
-         {
-          name: "faq",
-          label: "FAQ",
-        },
-       ];
+        */
+    {
+        name: "partner",
+        label: "Untuk bisnis",
+    },
+    {
+        name: "faq",
+        label: "FAQ",
+    },
+];
