@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import heroIndex from "../../assets/image/illustrations/home-index.png";
 import heroIndex2 from "../../assets/image/illustrations/home-index2.png";
 
 const Hero = ({ className, ...rest }) => {
@@ -11,7 +10,7 @@ const Hero = ({ className, ...rest }) => {
                     <div className='row justify-content-center'>
                         {/* <!-- Hero Content --> */}
                         <div
-                            className='col-xl-5 col-lg-6 col-md-8 col-xs-10 order-2 order-lg-1'
+                            className='col-xl-6 col-lg-6 col-md-8 col-xs-10 order-2 order-lg-1'
                             data-aos='fade-right'
                             data-aos-delay='500'
                         >
@@ -19,14 +18,14 @@ const Hero = ({ className, ...rest }) => {
                                 <h1 className='font-size-11 mb-8'>
                                     Beli Produk Impian Tanpa Berhutang
                                 </h1>
-                                <p className='font-size-7 mb-0 heading-default-color'>
+                                <p className='font-size-6 mb-0 heading-default-color'>
                                     Kashout membantu Kamu membeli produk
                                     impian tanpa berhutang dengan cara menabung.
                                 </p>
-                                <div className=' pt-5 pt-lg-10'>
+                                <div className='pt-5 pt-lg-10'>
                                     <Link
                                         to={"/faq"}
-                                        className='btn btn-dodger-blue-2 rounded-5'
+                                        className='btn btn-sm btn-dodger-blue-2 rounded-5'
                                     >
                                         Cara kerja
                                     </Link>
@@ -40,7 +39,7 @@ const Hero = ({ className, ...rest }) => {
                         {/* <!-- End Hero Content --> */}
                         {/* <!-- l2-hero-image-group --> */}
                         <div
-                            className='col-xl-7 col-lg-6 col-md-7 order-1 order-lg-2'
+                            className='col-xl-6 col-lg-6 col-md-7 order-1 order-lg-2'
                             data-aos='fade-left'
                             data-aos-delay='800'
                         >

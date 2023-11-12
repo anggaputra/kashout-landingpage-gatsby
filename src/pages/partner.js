@@ -24,7 +24,6 @@ const Home3 = () => {
         <ContentOne className="pt-13 pt-lg-28 pb-13 pb-lg-26" />
         <ContentTwo className="bg-default-4 pt-15 pt-lg-30 pb-15 pb-lg-26" />
         <ContentThree className="pt-30 pt-lg-28 pb-15 pb-lg-30" />
-        <Testimonial />
       </PageWrapper>
     </>
   );

@@ -47,7 +47,7 @@ const Progress = ({ className, ...rest }) => {
                   data-aos-delay="300"
                   data-aos-once="true"
                 >
-                  <div className="square-97 bg-dodger-blue-2 rounded-10 mb-10 shadow-bg-dodger-blue-2 mx-auto mx-md-0">
+                  <div className="square-97 bg-buttercup rounded-10 mb-10 shadow-5 mx-auto mx-md-0">
                     <img src={imgS} alt="" />
                   </div>
                   <div className="">
@@ -65,7 +65,7 @@ const Progress = ({ className, ...rest }) => {
                   data-aos-delay="900"
                   data-aos-once="true"
                 >
-                  <div className="square-97 bg-dodger-blue-2 rounded-10 mb-10 shadow-bg-dodger-blue-2 mx-auto mx-md-0">
+                  <div className="square-97 bg-dodger-blue-2 rounded-10 mb-10 shadow-5  mx-auto mx-md-0">
                     <img src={imgE} alt="" />
                   </div>
                   <div className="">
@@ -83,7 +83,7 @@ const Progress = ({ className, ...rest }) => {
                   data-aos-delay="1300"
                   data-aos-once="true"
                 >
-                  <div className="square-97 bg-dodger-blue-2 rounded-10 mb-10 shadow-bg-dodger-blue-2 mx-auto mx-md-0">
+                  <div className="square-97 bg-teal rounded-10 mb-10 shadow-5 mx-auto mx-md-0">
                     <img src={imgR} alt="" />
                   </div>
                   <div className="">

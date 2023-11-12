@@ -32,10 +32,9 @@ const Content2 = ({ className, ...rest }) => {
             <div
               className="col-xl-4 col-lg-5 col-md-6 col-xs-8 order-2 order-md-1"
               data-aos="fade-right"
-              data-aos-delay={500}
+              data-aos-delay={400}
               data-aos-once="true"
             >
-              <h2 className="font-size-9">Beli barang dengan cara menabung</h2>
               <ul className="list-unstyled mt-9 mt-lg-14">
                 {contentWidgetData.map(({ icon, title, text }, index) => {
                   return (
@@ -59,7 +58,7 @@ const Content2 = ({ className, ...rest }) => {
             <div
               className="col-xl-6 offset-xl-2 col-lg-7 col-md-6 col-xs-8 order-1 order-md-2"
               data-aos="fade-left"
-              data-aos-delay={500}
+              data-aos-delay={450}
               data-aos-once="true"
             >
               <div className="l2-content-image-group-2 mb-10 mb-md-0 rounded-10">
