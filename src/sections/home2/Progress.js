@@ -5,16 +5,19 @@ import imgA2 from "../../assets/image/home-2/png/arrow-2.png";
 import imgS from "../../assets/image/home-2/png/search.png";
 import imgE from "../../assets/image/home-2/png/event-confirm.png";
 import imgR from "../../assets/image/home-2/png/right-layer.png";
+import imgCS from "../../assets/image/home-2/png/content-shape.png";
 
 const Progress = ({ className, ...rest }) => {
   return (
     <>
       <div className={className} {...rest}>
+        <div className="full-width-shape w-100">
+          <img className="w-100" src={imgCS} alt="" />
+        </div>
         <div className="container">
           {/* <!-- Section Title --> */}
           <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10 pt-13 pt-lg-23 pb-13 pb-lg-12 pr-lg-10 pr-xl-0">
-            </div>
+            <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10 pb-13 pb-lg-12 pr-lg-10 pr-xl-0"></div>
           </div>
           {/* <!-- Section Title --> */}
           {/* <!-- Progress Items --> */}
@@ -53,7 +56,8 @@ const Progress = ({ className, ...rest }) => {
                   <div className="">
                     <h3 className="font-size-8 mb-6">Pilih produk</h3>
                     <p className="font-size-5 line-height-28 mb-0">
-                    Cari produk yang diinginkan di Kashout, pilih produk yang sesuai dengan kebutuhan Kamu.
+                      Cari produk yang diinginkan di Kashout, pilih produk yang
+                      sesuai dengan kebutuhan Kamu.
                     </p>
                   </div>
                 </div>
@@ -71,7 +75,8 @@ const Progress = ({ className, ...rest }) => {
                   <div className="">
                     <h3 className="font-size-8 mb-6">Mulai menabung</h3>
                     <p className="font-size-5 line-height-28 mb-0">
-                      Menabung sesuai kemampuan keuangan Kamu sampai target menabung tercapai.
+                      Menabung sesuai kemampuan keuangan Kamu sampai target
+                      menabung tercapai.
                     </p>
                   </div>
                 </div>
