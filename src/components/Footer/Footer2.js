@@ -3,48 +3,45 @@ import { Link } from "gatsby";
 import Cta from "../../sections/home6/Cta";
 
 const Footer = ({ className, ...rest }) => {
-    return (
-        <>
-            <Cta className='bg-purple-heart py-5' />
-            <div
-                className={`pt-13 pt-lg-25 pb-13 pb-lg-18 ${className}`}
-                {...rest}
-            >
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-lg-7'>
-                            <div className='row'>
-                                {/* Single Widgets */}
-                                <div className='col-md-4 col-xs-6'>
-                                    <div className='mb-10 mb-lg-0'>
-                                        <h4 className='font-size-6 font-weight-medium mb-10'>
-                                            FAQ
-                                        </h4>
-                                        <ul className='list-unstyled'>
-                                            <li className='mb-6'>
-                                                <Link
-                                                    to='/faq'
-                                                    className='font-size-5 text-default-color'
-                                                >
-                                                    Cara menabung
-                                                </Link>
-                                            </li>
-                                            <li className='mb-6'>
-                                                <Link
-                                                    to='/partner'
-                                                    className='font-size-5 text-default-color'
-                                                >
-                                                    Jadi partner
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                {/* End Single Widgets */}
-                            </div>
-                        </div>
+  return (
+    <>
+      <Cta className="bg-purple-heart py-5" />
+      <div className={`pt-13 pt-lg-25 pb-13 pb-lg-18 ${className}`} {...rest}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-7">
+              <div className="row">
+                {/* Single Widgets */}
+                <div className="col-md-4 col-xs-6">
+                  <div className="mb-10 mb-lg-0">
+                    <h4 className="font-size-6 font-weight-medium">
+                      FAQ
+                    </h4>
+                    <ul className="list-unstyled">
+                      <li>
+                        <Link
+                          to="/faq"
+                          className="font-size-5 text-default-color"
+                        >
+                          Cara menabung
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/partner"
+                          className="font-size-5 text-default-color"
+                        >
+                          Jadi partner
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                {/* End Single Widgets */}
+              </div>
+            </div>
 
-                        {/* 
+            {/* 
                               <div className='col-lg-5 col-md-8'>
                             <div className="mb-7">
                               <h4 className="font-size-6 font-weight-medium mb-8">
@@ -75,11 +72,11 @@ const Footer = ({ className, ...rest }) => {
                             </div> 
                               </div>
                             */}
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Footer;
