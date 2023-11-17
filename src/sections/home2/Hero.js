@@ -15,12 +15,12 @@ const Hero = ({ className, ...rest }) => {
                             data-aos-delay='500'
                         >
                             <div className='pr-lg-10 pr-xl-0 pt-0 pt-lg-0 pb-13 pb-lg-0'>
-                                <h1 className='font-size-11 mb-8'>
-                                    Beli Produk Impian Tanpa Berhutang
+                                <h1 className='font-size-12 mb-8'>
+                                   Membeli Produk Tanpa Berhutang
                                 </h1>
                                 <p className='font-size-6 mb-0 heading-default-color'>
                                     Kashout membantu Kamu membeli produk
-                                    impian tanpa berhutang dengan cara menabung.
+                                    yang Kamu inginkan tanpa berhutang. Nabung sekarang, beli nanti.
                                 </p>
                                 <div className='pt-5 pt-lg-10'>
                                     <Link
