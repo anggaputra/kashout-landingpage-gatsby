@@ -19,7 +19,7 @@ const Home2 = () => {
                 }}
             >
                 <Hero className='pt-11 pt-lg-34 pb-6 pb-lg-30' />
-                <HowTo className='pb-lg-26 border-top border-default-color-1' />
+                <HowTo className='pb-lg-26 border-top border-default-color-1 bg-dark-cloud' />
                 <SaveNow className='pt-20 pb-lg-21 border-top border-default-color-1' />
                 <Rewards className='pb-12 pb-lg-25' />
 				<RewardsImage className='pb-0 pb-sm-0 pb-lg-0' />

@@ -18,9 +18,10 @@ const Hero = ({ className, ...rest }) => {
                                 <h1 className='font-size-11 mb-8'>
                                     Beli Produk Impian Tanpa Berhutang
                                 </h1>
-                                <p className='font-size-6 mb-0 heading-default-color'>
-                                    Kashout membantu Kamu membeli produk
-                                    impian tanpa berhutang dengan cara menabung.
+                                <p className='font-size-6 mb-0 heading-default-color lh-1'>
+                                    Mendapatkan produk impian tidak harus selalu
+                                    dengan cara berhutang, dengan menabung Kamu menjaga
+                                    kesehatan keuangan Kamu lebih stabil.
                                 </p>
                                 <div className='pt-5 pt-lg-10'>
                                     <Link
