@@ -22,6 +22,6 @@ export const menuItems = [
     },
     {
         name: "faq",
-        label: "FAQ",
+        label: "Bantuan",
     },
 ];

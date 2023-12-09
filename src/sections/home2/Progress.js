@@ -25,7 +25,7 @@ const Progress = ({ className, ...rest }) => {
                                     <div
                                         className='arrow-shape-1 d-none d-lg-block absolute-top-left'
                                         data-aos='zoom-in'
-                                        data-aos-delay='600'
+                                        data-aos-delay='500'
                                         data-aos-once='true'
                                     >
                                         <img src={imgA1} alt='' />
@@ -33,7 +33,7 @@ const Progress = ({ className, ...rest }) => {
                                     <div
                                         className='arrow-shape-2 d-none d-lg-block absolute-top-right'
                                         data-aos='zoom-in'
-                                        data-aos-delay='1100'
+                                        data-aos-delay='800'
                                         data-aos-once='true'
                                     >
                                         <img src={imgA2} alt='' />
@@ -43,7 +43,7 @@ const Progress = ({ className, ...rest }) => {
                                 <div
                                     className='single-widgets pr-md-18 pr-lg-0 pl-lg-10 pl-xl-22 mb-10 mb-lg-0 text-center text-md-left'
                                     data-aos='zoom-in'
-                                    data-aos-delay='300'
+                                    data-aos-delay='200'
                                     data-aos-once='true'
                                 >
                                     <div className='square-97 bg-buttercup rounded-10 mb-10 shadow-5 mx-auto mx-md-0'>
@@ -71,7 +71,7 @@ const Progress = ({ className, ...rest }) => {
                                 <div
                                     className='single-widgets pr-md-18 pr-lg-0 pl-lg-10 pl-xl-22 mb-10 mb-lg-0 text-center text-md-left'
                                     data-aos='zoom-in'
-                                    data-aos-delay='900'
+                                    data-aos-delay='400'
                                     data-aos-once='true'
                                 >
                                     <div className='square-97 bg-dodger-blue-2 rounded-10 mb-10 shadow-5  mx-auto mx-md-0'>
@@ -99,7 +99,7 @@ const Progress = ({ className, ...rest }) => {
                                 <div
                                     className='single-widgets pr-md-18 pr-lg-0 pl-lg-10 pl-xl-22 mb-10 mb-lg-0 text-center text-md-left'
                                     data-aos='zoom-in'
-                                    data-aos-delay='1300'
+                                    data-aos-delay='600'
                                     data-aos-once='true'
                                 >
                                     <div className='square-97 bg-teal rounded-10 mb-10 shadow-5 mx-auto mx-md-0'>

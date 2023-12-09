@@ -11,7 +11,7 @@ const Content3 = ({ className, ...rest }) => {
             <div
               className="col-xl-5 col-lg-5 col-md-5 col-xs-8"
               data-aos="fade-right"
-              data-aos-delay={500}
+              data-aos-delay={400}
               data-aos-once="true"
             >
               <div className="content-image-group-3 mb-17 mb-lg-0 mr-xl-16">

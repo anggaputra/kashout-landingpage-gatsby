@@ -15,7 +15,7 @@ const Hero = ({ className, ...rest }) => {
                             data-aos-delay='500'
                         >
                             <div className='pr-lg-10 pr-xl-0 pt-0 pt-lg-0 pb-13 pb-lg-0'>
-                                <h1 className='font-size-11 mb-8'>
+                                <h1 className='font-size-11 mb-8 mt-14'>
                                     Beli Produk Impian Tanpa Berhutang
                                 </h1>
                                 <p className='font-size-6 mb-0 heading-default-color lh-1'>
@@ -23,18 +23,6 @@ const Hero = ({ className, ...rest }) => {
                                     dengan cara berhutang, dengan menabung Kamu menjaga
                                     kesehatan keuangan Kamu lebih stabil.
                                 </p>
-                                <div className='pt-5 pt-lg-10'>
-                                    <Link
-                                        to={"/faq"}
-                                        className='btn btn-sm btn-dodger-blue-2 rounded-5'
-                                    >
-                                        Cara kerja
-                                    </Link>
-                                    {/*   <span className="d-block pt-5 pt-lg-9 heading-default-color">
-                    Karena menabung lebih baik daripada berhutang
-                    <Modal className="ml-2">Check our 1 min video</Modal>
-                  </span> */}
-                                </div>
                             </div>
                         </div>
                         {/* <!-- End Hero Content --> */}
