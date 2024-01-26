@@ -160,7 +160,7 @@ const Menu = () => {
                         target="_blank"
                         className='btn btn-sm btn-dodger-blue-2 rounded-5 px-7 mt-1'
                     >
-                        Mulai menabung
+                        Daftar sekarang
                     </Link>
                 </li>
             </ul>

@@ -20,7 +20,7 @@ const Hero = ({ className, ...rest }) => {
                                 </h1>
                                 <p className='font-size-6 mb-0 heading-default-color lh-1'>
                                     Mendapatkan produk impian tidak harus selalu
-                                    dengan cara berhutang, dengan menabung Kamu menjaga
+                                    dengan cara berhutang, dengan cara menabung Kamu menjaga
                                     kesehatan keuangan Kamu lebih stabil.
                                 </p>
                             </div>

@@ -14,7 +14,7 @@ const Content2 = ({ className, ...rest }) => {
     },
     {
       icon: img3,
-      title: "Mulai menabung, kumpulin uangnya",
+      title: "Mulai mencicil, kumpulin uangnya",
       text: "Manual atau auto deposit tersedia di Kashout, otomatisasi proses menabung Kamu.",
     },
     {

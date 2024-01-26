@@ -82,7 +82,7 @@ const Progress = ({ className, ...rest }) => {
                                             className='font-size-8 mb-6'
                                             style={{ color: "#fff" }}
                                         >
-                                            Mulai menabung
+                                            Mulai mencicil
                                         </h3>
                                         <p
                                             className='font-size-5 line-height-28 mb-0'

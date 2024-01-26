@@ -15,7 +15,7 @@ const Home2 = () => {
                 themeConfig={{
                     headerClassName: "site-header--menu-right",
                     headerButton: <></>,
-                    footerStyle: "style2",
+                    footerStyle: "style5",
                 }}
             >
                 <Hero className='pt-11 pt-lg-34 pb-6 pb-lg-30' />

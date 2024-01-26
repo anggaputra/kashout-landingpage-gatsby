@@ -162,7 +162,7 @@ const NestedMenu = () => {
                         className='mainCTA btn btn-sm btn-dodger-blue-2 rounded-5 px-7 mt-8'
                         style={{ width: "100%", color: "#ffffff !important" }}
                     >
-                        Mulai menabung
+                        Daftar Sekarang
                     </a>
                 </div>
             </ListGroup>

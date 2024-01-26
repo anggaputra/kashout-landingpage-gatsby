@@ -10,7 +10,7 @@ const Faq = () => {
                 themeConfig={{
                     headerClassName: "site-header--menu-right",
                     headerButton: <></>,
-                    footerStyle: "style2",
+                    footerStyle: "style5",
                 }}
             >
                 <div className='pt-23 pt-md-26 pt-lg-31 pb-13 pb-md-18 pb-lg-23'>

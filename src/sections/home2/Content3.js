@@ -30,12 +30,12 @@ const Content3 = ({ className, ...rest }) => {
             >
               <div>
                 <h3 className="font-size-10 mb-7">
-                  Dapatkan cash rewards setiap kali kamu menabung
+                  Dapatkan insentif dari Kashout setiap kali uang terkumpul
                 </h3>
                 <p className="heading-default-color font-size-5">
-                  Lihat proses menabung Kamu mulai dari nol sampai jumlah yang
+                  Lihat proses mencicil Kamu mulai dari nol sampai jumlah yang
                   Kamu targetkan tercapai. Setiap kali milestone tercapai Kamu
-                  dapat rewards.
+                  dapat insentif.
                 </p>
               </div>
             </div>

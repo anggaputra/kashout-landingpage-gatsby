@@ -17,7 +17,7 @@ const Home3 = () => {
             <>
             </>
           ),
-          footerStyle: "style2",
+          footerStyle: "style5",
         }}
       >
         <Hero className="position-relative mt-25 pt-20 pt-sm-24 pt-lg-34 pb-9 pb-lg-32" />
